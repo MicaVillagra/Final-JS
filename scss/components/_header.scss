@@ -1,0 +1,100 @@
+
+header{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient( #30353b 0%, #1a1b1f 100%);
+    nav{
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px;
+        div{
+        margin: 0 auto;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        }
+        .imagen-logo{
+            width: 60px;
+            height:60px;
+        }
+        .logoname p{
+            font-size: 40px;
+            text-align: center;
+        }
+        .mayuscula{
+            text-transform: uppercase;
+            color:#F4BD76;
+            
+        }
+        .link{
+            font-size: 20px;
+            display: inline-block;
+            color: #Fff;
+            text-decoration: none;
+            font-weight: 300;
+            padding: 10px 10px;
+            &:hover{
+                color: #F4BD76;
+                transition: linear 0.2s;
+                
+            }
+        }
+        .link-activo{
+            color:#F4BD76 ;
+            font-weight: 700;
+            &:hover{
+                background-color:#f7ce90;
+                color:#1a1b1f;
+                transition: 2s all;
+            }
+        }
+    }
+    section{
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        overflow: hidden;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        div{
+            text-align: center;
+            padding: 10px;
+        }
+        
+        .titulo-activo{
+            color:#F4BD76 ;
+            font-weight: 700;
+            font-size: 58px;
+            text-align: center;
+            justify-content: center;
+        }
+        p{
+            font-size: 30px;
+            color: #ffffff;
+            text-shadow: #30353b;  
+            padding: 0;
+        }
+        .parrafo-activo{
+            font-weight: 700;
+        }
+        .cta{
+            padding: 20px 30px;
+            display: inline-block;
+            background:#F4BD76;
+            text-decoration: none;
+            color: #30353b;
+            font-weight: 700;
+            box-shadow: 0 8px 8px, #00000033;
+            margin: 10px;
+        }
+        .imagenP{
+            width: 45%;
+            height: 50%;
+            padding: 30px;
+        }
+    }
+}

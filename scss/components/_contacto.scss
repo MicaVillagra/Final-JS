@@ -1,0 +1,367 @@
+
+.mediaContacto div{
+    padding: 20px;
+    margin: 20px;
+}
+.ubicacion{
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+}
+
+@media  (min-device-width : 900px) and (max-device-width : 1024px){
+    header{
+        width: 100%;
+        min-height: 100vh;
+        background-color: #30353b 0%;
+        nav{
+            padding: 5px;
+            .imagen-logo{
+                width: 40px;
+                height: 40px;
+            }
+            .logoname p{
+                font-size: 20px;
+                text-align: center;
+            }
+            .link{
+                font-size: 18px;
+            }
+        }
+        section{
+            width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+        overflow: hidden;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        }
+        div{
+            text-align: center;
+            padding: 10px;
+            .titulo-activo{
+                font-size: 45px;
+            }
+            p{
+                font-size: 25px;
+            }
+            .cta{
+                padding: 10px 20px;
+                display: inline-block;
+                background:#F4BD76;
+                text-decoration: none;
+                color: #30353b;
+                font-weight: 700;
+                box-shadow: 0 8px 8px, #00000033;
+                margin: 10px;
+            }
+            div.imagenP{
+                width: 35%;
+                height: 50%;
+                padding: 20px;
+            }
+        }
+    }
+}
+@media  (min-device-width : 700px) and (max-device-width : 900px){
+    header{
+        width: 100%;
+        min-height: 100vh;
+        background-color: #30353b 0%;
+        nav{
+            padding: 5px;
+            .imagen-logo{
+                width: 40px;
+                height: 40px;
+            }
+            .container{
+                width: 90%;
+                max-width: 1000px;
+                overflow: hidden;
+            }
+            .logoname p{
+                font-size: 15px;
+                text-align: center;
+            }
+            .link{
+                font-size: 10px;
+            }
+        }
+        section{
+            width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+        overflow: hidden;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        }
+        div{
+            text-align: center;
+            padding: 10px;
+            .titulo-activo{
+                font-size: 35px;
+            }
+            p{
+                font-size: 20px;
+            }
+            .cta{
+                
+                padding: 10px 20px;
+                display: inline-block;
+                background:#F4BD76;
+                text-decoration: none;
+                color: #30353b;
+                font-weight: 700;
+                box-shadow: 0 8px 8px, #00000033;
+                margin: 10px;
+            }
+            div.imagenP{
+                width: 30%;
+                height: 40%;
+                padding: 20px;
+            }
+        }
+        
+    }
+    
+}
+@media  (min-device-width : 500px) and (max-device-width : 700px){
+    header{
+        width: 100%;
+        min-height: 100vh;
+        background-color: #30353b 0%;
+        nav{
+            padding: 5px;
+            
+            .container{
+                width: 100%;
+                max-width: 1000px;
+                overflow: hidden;
+            }
+            .logoname p{
+                font-size: 20px;
+            }
+            .link{
+                font-size: 15px;
+            }
+        }
+        .imagen-logo{
+            width: 30px;
+            height: 30px;
+        }
+        section{
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            overflow: hidden;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0;
+        }
+        div{
+            text-align: center;
+            padding: 10px;
+            .titulo-activo{
+                font-size: 25px;
+            
+            }
+            p{
+                font-size: 18px;
+            }
+            .cta{
+                width: 40%;
+                padding: 10px 20px;
+                display: inline-block;
+                background:#F4BD76;
+                text-decoration: none;
+                color: #30353b;
+                font-weight: 700;
+                box-shadow: 0 8px 8px, #00000033;
+                margin: 10px;
+            }
+            div.imagenP{
+                width: 30%;
+                height: 40%;
+                padding: 20px;
+            }
+        }
+        
+    }
+    
+}
+@media  (min-device-width : 250px) and (max-device-width : 500px){
+    header{
+        width: 100%;
+        min-height: 100vh;
+        background-color: #30353b 0%;
+        nav{
+            
+            .container{
+                width: 100%;
+                max-width: 1000px;
+                overflow: hidden;
+            }
+            
+            .logoname p{
+                font-size: 15px;
+            }
+            .link{
+                font-size: 8px;
+                display: flex;
+                flex-wrap:initial;
+            }
+        }
+        .imagen-logo{
+            width: 20px;
+            height: 20px;
+        }
+        section{
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            overflow: hidden;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0;
+        }
+        div{
+            text-align: center;
+            margin: 15px;
+            .titulo-activo{
+                font-size: 25px;
+            }
+            p{
+                font-size: 15px;
+            }
+            .cta{
+                width: 50%;
+                padding: 10px 20px;
+                display: inline-block;
+                background:#F4BD76;
+                text-decoration: none;
+                color: #30353b;
+                font-weight: 700;
+                box-shadow: 0 8px 8px, #00000033;
+                margin: 10px;
+            }
+            
+        }
+        .imagenP{
+            display: none;
+        }
+        
+    }
+        
+}
+@media  (min-device-width : 60px) and (max-device-width : 250px){
+    
+    header{
+        width: 100%;
+    min-height: 100vh;
+    background-color: #30353b 0%;
+    nav{
+        .container{
+            width: 100%;
+            max-width: 1000px;
+            overflow: hidden;
+        }
+        .imagen-logo{
+            width: 40px;
+            height: 40px;
+        }
+        .logoname p{
+            font-size: 5px;
+        }
+        .link{
+            font-size: 8px;
+            display: flex;
+            flex-wrap:initial;
+        }
+    }
+    section{
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+        overflow: hidden;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+    }
+    div{
+        text-align: center;
+        margin: 15px;
+        .titulo-activo{
+            font-size: 25px;
+        }
+        p{
+            font-size: 15px;
+        }
+        .cta{
+            width: 50%;
+            padding: 10px 20px;
+            display: inline-block;
+            background:#F4BD76;
+            text-decoration: none;
+            color: #30353b;
+            font-weight: 700;
+            box-shadow: 0 8px 8px, #00000033;
+            margin: 10px;
+        }
+        
+    }
+    .imagenP{
+        display: none;
+    }
+    }
+        
+    
+}
+@media  (min-device-width : 900px) and (max-device-width : 1024px){
+
+    main .mediaContacto{
+        width: 80px;
+        margin: 20px;
+    }
+    .iframe{
+        width: 80px;
+    }
+}
+@media  (min-device-width : 700px) and (max-device-width : 900px){
+    main .mediaContacto{
+        width: 50px;
+        margin: 20px;
+    }
+    .iframe{
+        width: 30px;
+    }
+}
+@media  (min-device-width : 500px) and (max-device-width : 700px){
+    main .mediaContacto{
+        width: 50px;
+        margin: 20px;
+    }
+    .iframe{
+        width: 30px;
+    }
+}
+@media  (min-device-width : 250px) and (max-device-width : 500px){
+    main .mediaContacto{
+        width: 50px;
+        margin: 20px;
+    }
+    .iframe{
+        width: 30px;
+    }
+}
