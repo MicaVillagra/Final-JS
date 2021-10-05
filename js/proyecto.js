@@ -34,7 +34,7 @@ function Agregaritemcarrocompra(itemTitle, itemPrice, itemImage) {
       );
       Cantidadelementos.value++;
       $('.toast').toast('show');
-      Actualizaciontotal();
+      Actualizaciontotal(); 
       return;
     }
   }
@@ -44,7 +44,7 @@ function Agregaritemcarrocompra(itemTitle, itemPrice, itemImage) {
   <div class="row shoppingCartItem">
         <div class="col-6">
             <div class="shopping-cart-item d-flex align-items-center h-100 border-bottom pb-2 pt-3">
-                <img src=${itemImage} class="shopping-cart-image">
+                <img src=${itemImage} class="shopping-cart-image1">
                 <h6 class="shopping-cart-item-title shoppingCartItemTitle text-truncate ml-3 mb-0">${itemTitle}</h6>
             </div>
         </div>
@@ -129,47 +129,19 @@ $(function () {
       width: '150px'
     }, //1er parámetro propiedades
     4000, //2do parámetro duración 
-    function () { //3er parámetro callback
+    function () { //3er parámetr
       console.log("final de animación");
     });
-//boton con una accion
-  $("button").click(function (e) {
-    e.preventDefault();
-    $('html, body').animate({
-      scrollTop: $("#seccionCursos").offset().top
-    }, 2000);
-  })
+    function scrollAbajo(){
+      var botonabajo=document.getElementsByClassName('botonabajo');
+      botonabajo.contentWindow.scrollTo(0,500);
+  }
 
   //botones de colores
-  $("#btnDurazno").click(() => $("body").css("background-color", "beige"))
-  $("#btnGris").click ( () => $("body").css ("background-color", "grey"))
-  $("#btnYellow").click ( () => $("body").css ("background-color", "beige"))
+  $("#btnb").click(() => $("body").css("background-color", "beige"))
+  $("#btng").click ( () => $("body").css ("background-color", "grey"))
+  $("#btnbe").click ( () => $("body").css ("background-color", "beige"))
 })
 
-/* //Ajax con Jquery
-$(function(){
-  //Declaramos la url que vamos a usar para el GET
-  const URLGET = "https://jsonplaceholder.typicode.com/posts"
-  //Escuchamos el evento click del botón agregado
-  $("#comprar").click(() => { 
-      console.log("entro al evento click");
-      $.get(URLGET, function (respuesta, estado) {
-          console.log(estado);
-          console.log(respuesta);
-          if(estado === "success"){
-              let misDatos = respuesta;
-              for (const dato of misDatos) {
-                  $("main").append(`
-                              <div class="card">
-                                  <h5 class="card-header">ID: ${dato.id}</h5>
-                                  <div class="card-body">
-                                      <h5 class="card-title">${dato.title}</h5>
-                                      <p class="card-text">${dato.body}</p>
-                                  </div>
-                              </div>`);
-              }  
-          } 
-      });
-  });
-}) */
+
 

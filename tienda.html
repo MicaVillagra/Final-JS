@@ -54,7 +54,9 @@
                     <a href="blog.html" class="link">Blog</a>
                     <a href="nosotros.html" class="link">Nosotros</a>
                     <a href="tienda.html" class="link">Tienda</a>
+                    <a href="registro.html" class="link">Registrate</a>
                     <a href="contacto.html" class="link link-activo">Contacto</a>
+
                 </div>
             </div>
         </nav>
@@ -63,23 +65,16 @@
                 <h2><span class="titulo-activo ">Pequeños detalles hacen grandes diferencias.</span></h1>
             </div>
             <img src="imagen/pexels-photo-4443113.jpeg" class="imagenP" alt="hombre con compu en el">
-            <div>
-                <button class="botonC">Ver Cursos</button>
-                <p style= "height: 800px"></p>
-                <section id="seccionCursos">
-                    <h4>Disponibles</a></h4>
-                </section>
-            </div>
         </section>
     </header>
-    
+
     <!--FIN DEL HEADER-->
-  <!--TEXTO
+    <!--tEXTO ANIMADO-->
     <div class="contenedor">
         <div class="textoAnimado">
             <p>Se el proximo Trader</p>
         </div>
-    </div> -->
+    </div>
     <!--INICIO DE SESION-->
     <section class="store">
         <div class="container">
@@ -90,22 +85,25 @@
                         <div class="item shadow mb-4">
                             <h3 class="item-title"> Curso Basico</h3>
                             <img class="item-image" src="./img/SERVICIO2.jpg">
-                            
+
                             <div class="item-details">
                                 <h4 class="item-price">$3000</h4>
-                                <button   class="item-button btn btn-primary addToCart"> Agregar al Carrito </button>
+                                <button id="btnb" class=" botonabajo item-button btn btn-primary addToCart"> Agregar al
+                                    Carrito
+                                </button>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6">
                         <div class="item shadow mb-4">
                             <h3 class="item-title">Curso intermedio</h3>
-                            
+
                             <img class="item-image" src="./img/SERVICIO3.jpg">
-                            
+
                             <div class="item-details">
                                 <h4 class="item-price">$5000</h4>
-                                <button class="item-button btn btn-primary addToCart"> Agregar al Carrito</button>
+                                <button id="btng" class="botonabajo item-button btn btn-primary addToCart"> Agregar al
+                                    Carrito</button>
                             </div>
                         </div>
                     </div>
@@ -115,12 +113,13 @@
                     <div class="col-12 col-md-6">
                         <div class="item shadow mb-4">
                             <h3 class="item-title">Curso avanzado</h3>
-                            
+
                             <img class="item-image" src="./img/SERVICIO4.jpg">
-                            
+
                             <div class="item-details">
                                 <h4 class="item-price">$10000</h4>
-                                <button  class="item-button btn btn-primary addToCart"> Agregar al Carrito</button>
+                                <button id="btnbe" class="botonabajo item-button btn btn-primary addToCart"> Agregar al
+                                    Carrito</button>
                             </div>
                         </div>
                     </div>
@@ -157,8 +156,8 @@
             <div class="row">
                 <div class="col-12">
                     <div class="shopping-cart-total d-flex align-items-center">
-                        <p class="mb-0">Total</p>
-                        <p class="ml-4 mb-0 shoppingCartTotal">0$</p>
+                        <p class="mb-0 m-lg-3">Total</p>
+                        <p class="ml-4 mb-0 shoppingCartTotal">$0</p>
                         <div class="toast ml-auto bg-info" role="alert" aria-live="assertive" aria-atomic="true"
                             data-delay="2000">
                             <div class="toast-header">
@@ -172,8 +171,8 @@
                                 Se aumentó correctamente la cantidad
                             </div>
                         </div>
-                        <button id="comprar" class="btn btn-success ml-auto comprarButton" type="button" data-toggle="modal"
-                                data-target="#comprarModal">Comprar</button>
+                        <button id="comprar" class="btn btn-success ml-auto comprarButton" type="button"
+                            data-toggle="modal" data-target="#comprarModal">Comprar</button>
                     </div>
                 </div>
             </div>
@@ -215,6 +214,7 @@
                     <a href="blog.html">Blog</a>
                     <a href="nosotros.html">Nosotros</a>
                     <a href="servicios.html">Servicios</a>
+                    <a href="registro.html">Registrate</a>
                     <a href="index.html">Volver Atras</a>
                 </h3>
             </div>
@@ -232,16 +232,16 @@
     <!--FIN SESION FOOTER-->
 
 
-     <!-- SCRIPTS -->
-     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-     crossorigin="anonymous"></script>
- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-     integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-     crossorigin="anonymous"></script>
- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-     crossorigin="anonymous"></script>
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
     <!--Jqeury-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -257,8 +257,8 @@
     <script>
         AOS.init();
     </script>
- <!-- SCRIPTS -->
- <script src="js/proyecto.js"></script>
+    <!-- SCRIPTS -->
+    <script src="js/proyecto.js"></script>
 </body>
 
 </html>

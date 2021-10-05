@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Link de iconos-->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <title>Registro personas</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--Mi encabezado, navegaciones, logo-->
+    <header class="real">
+        <nav class="nav-real">
+            <div class="container nav-container">
+                <div data-aos="zoom-in" data-aos-duration="2000">
+                    <img data-aos-offset="800" src="imagen/logob.png" class="imagen-logo"
+                        alt="un grafico en alza color azul y gris">
+                </div>
+                <div class="logoname">
+                    <p class="mayuscula">Pro</p>
+                    <p>Trading</p>
+                </div>
+                <div class="link">
+                    <a href="index.html" class="link">Inicio</a>
+                    <a href="servicios.html" class="link">Servicios</a>
+                    <a href="blog.html" class="link">Blog</a>
+                    <a href="nosotros.html" class="link">Nosotros</a>
+                    <a href="tienda.html" class="link">Tienda</a>
+                    <a href="contacto.html" class="link link-activo">Contacto</a>
+                </div>
+            </div>
+        </nav>
+        </div>
+        <!--subtitulos de los niveles de cursos que hay con el enlace para adquirir-->
+        <section class="container real-principal">
+            <div class="real-textos">
+                <h2> <span class="titulo-activo">Para obtener becas y descuentos de nuestros cursos</span></h2>
+                <p class="parrafo">Te invitamos a suscribirte <span class="parrafo-activo"> recibiras muchos
+                        beneficios..</span></p>
+            </div>
+            <img src="imagen/registro.jpg" class="imagenP"
+                alt="mujer sentada en el sillon de su casa con una compu en las piernas">
+        </section>
+    </header>
+    <main class="form">
+        <h1 class="registroForm">Registro de personas</h1>
+        <form id="frm-registro">
+            <div>
+                <label for="slt-tipo-persona">Tipo de persona :</label>
+                <select id="slt-tipo-persona" required>
+                    <option value="">--Seleccione una opción--</option>
+                    <option value="física">Persona física</option>
+                    <option value="jurídica">Persona jurídica</option>
+                </select>
+            </div>
+            <div>
+                <label for="txt-identificacion">Identificación :</label>
+                <input type="text" id="txt-identificacion" required>
+            </div>
+            <div>
+                <label for="txt-nacimiento">Fecha nacimiento :</label>
+                <input type="date" id="txt-nacimiento" required>
+            </div>
+            <div>
+                <label for="txt-edad">Edad :</label>
+                <input type="number" id="txt-edad" min="0" max="120" required>
+            </div>
+            <div>
+                <button class="botonGuardar" type="button" id="btn-guardar">Guardar</button>
+            </div>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <div class="contacto">
+            <div class="item-contacto">
+                <i class='bx bxs-copyright contato-icon contacto-iconmodif'></i>
+                <h3 class="contacto-title">Pro Trading</h3>
+            </div>
+            <div class="item-contacto">
+                <i class='bx bxs-home contato-icon contacto-iconmodif'></i>
+                <h3 class="contacto-title">
+                    <a href="blog.html">Blog</a>
+                    <a href="tienda.html">Tienda</a>
+                    <a href="servicios.html">Servicios</a>
+                    <a href="index.html">Volver Atras</a>
+                </h3>
+            </div>
+            <div class="item-contacto">
+                <i class='bx bxs-edit-location contato-icon contacto-iconmodif'></i>
+                <h3 class="contacto-title">hola@protrading.com</h3>
+            </div>
+            <div class="item-contacto item-contactogold">
+                <i class='bx bxs-chat contato-icon contacto-iconmodif'></i>
+                <h3 class="contacto-gold"><a href="contacto.html">Contactanos Ahora</a></h3>
+            </div>
+        </div>
+    </footer>
+    <!--Fin del footer-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="js/registro.js"></script>
+</body>
+
+</html>
